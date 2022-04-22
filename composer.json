@@ -1,0 +1,12 @@
+{
+    "name": "martin/fat-free-tutorial",
+    "authors": [
+        {
+            "name": "Martin Sakac",
+            "email": "msakac@foi.hr"
+        }
+    ],
+    "require": {
+        "bcosca/fatfree": "3.8.0"
+    }
+}

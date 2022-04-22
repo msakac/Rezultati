@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'martin/fat-free-tutorial',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'bcosca/fatfree' => array(
+            'pretty_version' => '3.8.0',
+            'version' => '3.8.0.0',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../bcosca/fatfree',
+            'aliases' => array(),
+            'reference' => '7b14084349809e369c0a210bfc660e783df17324',
+            'dev_requirement' => false,
+        ),
+        'bcosca/fatfree-core' => array(
+            'pretty_version' => '3.8.0',
+            'version' => '3.8.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../bcosca/fatfree-core',
+            'aliases' => array(),
+            'reference' => 'cdd878db018280369b643fce62f70e55044f9ac4',
+            'dev_requirement' => false,
+        ),
+        'martin/fat-free-tutorial' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+    ),
+);
